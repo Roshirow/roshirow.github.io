@@ -1,4 +1,7 @@
 // Everything OK?
 console.log('OK');
 
-// Your Awesome Scripts
+// LIGHT GALLERY
+$('.gallery-1').lightGallery({
+    selector: 'a'
+});

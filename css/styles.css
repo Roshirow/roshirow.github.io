@@ -3,10 +3,15 @@
 */
 body {
   background: lightpink;
+  align-items: center;
 }
 
 * {
   outline: 1px dotted lightcyan;
+}
+nav li {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 /* Your Awesome Scripts */
