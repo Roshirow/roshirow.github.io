@@ -2,11 +2,11 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: lightpink;
 }
 
 * {
-  outline: 1px dotted black;
+  outline: 1px dotted lightcyan;
 }
 
 /* Your Awesome Scripts */
