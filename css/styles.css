@@ -55,7 +55,6 @@ a {
 	text-transform: uppercase;
 }
 .bg-image {
-	position: absolute;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -72,6 +71,30 @@ a {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #1a1a1a;
+}
+input[type="submit"] {
+	background-image: linear-gradient(
+		to left,
+		rgba(255, 146, 202, 0.75) 0%,
+		rgba(145, 149, 251, 0.86) 100%
+	);
+	box-shadow: 0 9px 25px -5px #df91fb;
+	font-family: "Abel", sans-serif;
+	padding: 0.5em 1.9em;
+	margin: 2.3em 0 0 0;
+	border-radius: 7px;
+	font-size: 1.4em;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border: none;
+	transition: 0.3s linear;
+}
+input[type="submit"]:hover {
+	transform: translatey(2px);
+}
+input[type="submit"]:active {
+	transform: translatey(5px);
 }
 /*FOOTER*/
 footer p {
