@@ -33,6 +33,27 @@ a {
 	text-transform: uppercase;
 	color: #1a1a1a;
 }
+
+.title-a {
+  text-align: center;
+	font-family: Krona One;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 150px;
+	font-size: 48px;
+	letter-spacing: 0.1em;
+	margin: 100px;
+}
+.title-b {
+	font-family: Linden Hill;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 64px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
 /*FOOTER*/
 footer p {
   text-align: center;
