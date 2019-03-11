@@ -5,3 +5,6 @@ console.log('OK');
 $('.gallery-1').lightGallery({
     selector: 'a'
 });
+$('.gallery-2').lightGallery({
+    selector: 'a'
+});
