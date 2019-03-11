@@ -2,13 +2,40 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: lightpink;
-  align-items: center;
+  background: rgb(255, 245, 247);
 }
 
-nav li {
-  text-decoration: none;
-  list-style-type: none;
+li{
+	list-style:none;
+	margin:10px;
 }
-
-/* Your Awesome Scripts */
+a {
+	color:white;
+	text-decoration:none;
+	background: #fc9d9d;
+	font-family: 'Lucida Sans';
+	font-weight: normal;
+	line-height: normal;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	padding: 3px;
+}
+.follow {
+	font-family: Impact;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 200px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #1a1a1a;
+}
+/*FOOTER*/
+footer p {
+  text-align: center;
+	color:gray;
+	font-size:20px;
+}
