@@ -33,14 +33,13 @@ footer p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 30%;
+	width: 100%;
 	height: auto;
 	margin-top:30px;
 	margin-bottom:30px;
 }
 .profile img{
-	display:none;
-	width:50px;
+	width:50%;
 	height:auto;
 }
 .title-a {
@@ -63,10 +62,14 @@ footer p {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
-main p {
-	letter-spacing: 0.1em;
-	font-size:40px;
-	line-height:20px;
+.first-section h1,
+.second-section h1 {
+	font-size:35px;
+}
+.first-section p,
+.second-section p {
+	font-size:20px;
+	line-height:35px;
 }
 /*PORTFOLIO*/
 .section-b,
@@ -80,10 +83,19 @@ main p {
 	text-transform: uppercase;
 	color: #1a1a1a;
 }
+.section-a{
+	display:flex;
+	float: left;
+}
+.section-b{
+	display:flex;
+	float: right;
+}
 #gallery-1 img,
 #gallery-2 img{
 	width:50%;
 	height:auto;
+	margin:20px;
 }
 /*CONTACT PAGE*/
 input[type="submit"] {
