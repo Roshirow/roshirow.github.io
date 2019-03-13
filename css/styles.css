@@ -1,10 +1,7 @@
-/*
-  DIAGNOSTIC STYLING
-*/
+/*BASE FOUNDATIONS*/
 body {
   background: rgb(255, 245, 247);
 }
-
 li{
 	list-style:none;
 	margin:10px;
@@ -23,17 +20,21 @@ a {
 	font-variant: small-caps;
 	padding: 3px;
 }
-.follow {
-	font-family: Impact;
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 200px;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	color: #1a1a1a;
+/*FOOTER*/
+footer p {
+	text-align: center;
+	  color:gray;
+	  font-size:20px;
+  }
+  
+/*ABOUT PAGE*/
+.bg-image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
 }
-
 .title-a {
   text-align: center;
 	font-family: Krona One;
@@ -54,13 +55,7 @@ a {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
-.bg-image {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 450px;
-}
+/*PORTFOLIO*/
 .section-b,
 .section-a {
 	font-family: Impact;
@@ -72,6 +67,7 @@ a {
 	text-transform: uppercase;
 	color: #1a1a1a;
 }
+/*CONTACT PAGE*/
 input[type="submit"] {
 	background-image: linear-gradient(
 		to left,
@@ -96,9 +92,13 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
 	transform: translatey(5px);
 }
-/*FOOTER*/
-footer p {
-  text-align: center;
-	color:gray;
-	font-size:20px;
+.follow {
+	font-family: Impact;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 200px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #1a1a1a;
 }
