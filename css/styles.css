@@ -19,6 +19,7 @@ a {
 	text-transform: uppercase;
 	font-variant: small-caps;
 	padding: 3px;
+	padding-right:25px;
 }
 /*FOOTER*/
 footer p {
@@ -26,14 +27,21 @@ footer p {
 	  color:gray;
 	  font-size:20px;
   }
-  
+
 /*ABOUT PAGE*/
-.bg-image {
+.bg-image img{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
-	height: 450px;
+	width: 30%;
+	height: auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.profile img{
+	display:none;
+	width:50px;
+	height:auto;
 }
 .title-a {
   text-align: center;
@@ -55,6 +63,11 @@ footer p {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
+main p {
+	letter-spacing: 0.1em;
+	font-size:40px;
+	line-height:20px;
+}
 /*PORTFOLIO*/
 .section-b,
 .section-a {
@@ -66,6 +79,11 @@ footer p {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #1a1a1a;
+}
+#gallery-1 img,
+#gallery-2 img{
+	width:50%;
+	height:auto;
 }
 /*CONTACT PAGE*/
 input[type="submit"] {
