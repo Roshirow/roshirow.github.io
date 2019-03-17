@@ -132,3 +132,45 @@ input[type="submit"]:active {
 	text-transform: uppercase;
 	color: #1a1a1a;
 }
+/*INDEX HOME PAGE*/
+#fairy{
+	width:20%;
+	height:auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	animation:fly 4s cubic-bezier(.23,.93,.66,.42)  infinite;
+
+}
+@keyframes fly{
+	0%{
+		
+	}
+	30%{
+		transform:translate(-50%, -40%);
+			transform:translateX(-70%);
+	}
+	50%{
+		transform:translate(-50%, -60%);
+		transform:translate(10%,50%);
+	}
+	100%{
+		transform:translate(-50%, -40%);
+		transform:translate(-50%, -50%);
+	}
+}
+.cls-1{
+	animation:pulsing 1s infinite;
+}
+@keyframes pulsing{
+	0%{
+		transform:scaleX(1);
+	}
+	50%{
+		transform:scale3d(1.0,1.06,1.06);
+	}
+		100%{
+		transform:scaleX(1);
+	}
+}
