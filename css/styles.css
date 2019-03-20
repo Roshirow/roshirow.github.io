@@ -133,6 +133,10 @@ input[type="submit"]:active {
 	color: #1a1a1a;
 }
 /*INDEX HOME PAGE*/
+.pinklogo{
+	width:20%;
+	height:auto;
+}
 #fairy{
 	width:20%;
 	height:auto;
