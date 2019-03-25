@@ -45,7 +45,7 @@ footer p {
 	margin-bottom:30px;
 }
 .profile img{
-	width:80%;
+	width:60%;
 	height:auto;
 	margin:10px;
 }
@@ -100,13 +100,15 @@ footer p {
 	display:flex;
 	float: right;
 }
-#gallery-1 img,
-#gallery-2 img{
-	width:50%;
+#gallery-1 img{
+	width:40%;
 	height:auto;
 	margin:20px;
 }
 /*CONTACT PAGE*/
+form{
+	margin-left:30px;
+}
 input[type="submit"] {
 	background-image: linear-gradient(
 		to left,
@@ -132,6 +134,7 @@ input[type="submit"]:active {
 	transform: translatey(5px);
 }
 .follow {
+	float:right;
 	font-family: Impact;
 	font-style: normal;
 	font-weight: normal;
